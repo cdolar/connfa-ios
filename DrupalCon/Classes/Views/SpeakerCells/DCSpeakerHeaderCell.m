@@ -8,6 +8,7 @@
 
 - (void)awakeFromNib {
   [self.photoImageView cutCircle];
+    [super awakeFromNib];
 }
 
 - (void)initData:(DCSpeaker*)speaker {

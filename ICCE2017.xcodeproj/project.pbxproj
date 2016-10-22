@@ -127,7 +127,6 @@
 		A6C5F3451BF4E9C60093AD65 /* about_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C5F21C1BF4E9C60093AD65 /* about_img.png */; };
 		A6C5F3471BF4E9C60093AD65 /* event_detail_style.css in Resources */ = {isa = PBXBuildFile; fileRef = A6C5F21D1BF4E9C60093AD65 /* event_detail_style.css */; };
 		A6C5F3491BF4E9C60093AD65 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A6C5F21E1BF4E9C60093AD65 /* style.css */; };
-		A6C5F34B1BF4E9C60093AD65 /* DrupalCon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6C5F2201BF4E9C60093AD65 /* DrupalCon-Info.plist */; };
 		A6C5F34F1BF4E9C60093AD65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F2231BF4E9C60093AD65 /* main.m */; };
 		A6C5F3511BF4E9C60093AD65 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C5F2261BF4E9C60093AD65 /* Crashlytics.framework */; };
 		A6C5F3531BF4E9C60093AD65 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C5F2271BF4E9C60093AD65 /* Fabric.framework */; };
@@ -153,7 +152,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5DC8C411198656DA00BF5816 /* DrupalCon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrupalCon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC8C411198656DA00BF5816 /* ICCE2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICCE2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC8C414198656DA00BF5816 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5DC8C416198656DA00BF5816 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5DC8C418198656DA00BF5816 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -381,8 +380,8 @@
 		A6C5F21C1BF4E9C60093AD65 /* about_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_img.png; sourceTree = "<group>"; };
 		A6C5F21D1BF4E9C60093AD65 /* event_detail_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = event_detail_style.css; sourceTree = "<group>"; };
 		A6C5F21E1BF4E9C60093AD65 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
-		A6C5F2201BF4E9C60093AD65 /* DrupalCon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DrupalCon-Info.plist"; sourceTree = "<group>"; };
-		A6C5F2211BF4E9C60093AD65 /* DrupalCon-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DrupalCon-Prefix.pch"; sourceTree = "<group>"; };
+		A6C5F2201BF4E9C60093AD65 /* ICCE2017-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ICCE2017-Info.plist"; sourceTree = "<group>"; };
+		A6C5F2211BF4E9C60093AD65 /* ICCE2017-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ICCE2017-Prefix.pch"; sourceTree = "<group>"; };
 		A6C5F2231BF4E9C60093AD65 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6C5F2261BF4E9C60093AD65 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		A6C5F2271BF4E9C60093AD65 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
@@ -459,7 +458,7 @@
 		5DC8C408198656DA00BF5816 = {
 			isa = PBXGroup;
 			children = (
-				A6C5F0F21BF4E9C50093AD65 /* DrupalCon */,
+				A6C5F0F21BF4E9C50093AD65 /* ICCE2017 */,
 				5DC8C413198656DA00BF5816 /* Frameworks */,
 				5DC8C412198656DA00BF5816 /* Products */,
 			);
@@ -468,7 +467,7 @@
 		5DC8C412198656DA00BF5816 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DC8C411198656DA00BF5816 /* DrupalCon.app */,
+				5DC8C411198656DA00BF5816 /* ICCE2017.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -531,7 +530,7 @@
 			path = Sidebar;
 			sourceTree = "<group>";
 		};
-		A6C5F0F21BF4E9C50093AD65 /* DrupalCon */ = {
+		A6C5F0F21BF4E9C50093AD65 /* ICCE2017 */ = {
 			isa = PBXGroup;
 			children = (
 				A6C5F0F31BF4E9C50093AD65 /* Classes */,
@@ -539,6 +538,7 @@
 				A6C5F21F1BF4E9C60093AD65 /* SupportingFiles */,
 				A6C5F2241BF4E9C60093AD65 /* Vendor */,
 			);
+			name = ICCE2017;
 			path = DrupalCon;
 			sourceTree = "<group>";
 		};
@@ -1230,8 +1230,8 @@
 		A6C5F21F1BF4E9C60093AD65 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				A6C5F2201BF4E9C60093AD65 /* DrupalCon-Info.plist */,
-				A6C5F2211BF4E9C60093AD65 /* DrupalCon-Prefix.pch */,
+				A6C5F2201BF4E9C60093AD65 /* ICCE2017-Info.plist */,
+				A6C5F2211BF4E9C60093AD65 /* ICCE2017-Prefix.pch */,
 				A6C5F2231BF4E9C60093AD65 /* main.m */,
 			);
 			path = SupportingFiles;
@@ -1320,9 +1320,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DC8C410198656DA00BF5816 /* DrupalCon */ = {
+		5DC8C410198656DA00BF5816 /* ICCE2017 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DC8C443198656DB00BF5816 /* Build configuration list for PBXNativeTarget "DrupalCon" */;
+			buildConfigurationList = 5DC8C443198656DB00BF5816 /* Build configuration list for PBXNativeTarget "ICCE2017" */;
 			buildPhases = (
 				5DC8C40D198656DA00BF5816 /* Sources */,
 				5DC8C40E198656DA00BF5816 /* Frameworks */,
@@ -1333,9 +1333,9 @@
 			);
 			dependencies = (
 			);
-			name = DrupalCon;
+			name = ICCE2017;
 			productName = DrupalCon;
-			productReference = 5DC8C411198656DA00BF5816 /* DrupalCon.app */;
+			productReference = 5DC8C411198656DA00BF5816 /* ICCE2017.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1345,10 +1345,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DC;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Lemberg Solution";
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "ICCE CE Society";
+				TargetAttributes = {
+					5DC8C410198656DA00BF5816 = {
+						DevelopmentTeam = Q7L82B2GJH;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
-			buildConfigurationList = 5DC8C40C198656DA00BF5816 /* Build configuration list for PBXProject "DrupalCon" */;
+			buildConfigurationList = 5DC8C40C198656DA00BF5816 /* Build configuration list for PBXProject "ICCE2017" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1361,7 +1367,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DC8C410198656DA00BF5816 /* DrupalCon */,
+				5DC8C410198656DA00BF5816 /* ICCE2017 */,
 			);
 		};
 /* End PBXProject section */
@@ -1379,7 +1385,6 @@
 				A6C5F3571BF4E9C60093AD65 /* LICENSE in Resources */,
 				A6C5F3491BF4E9C60093AD65 /* style.css in Resources */,
 				A6C5F33D1BF4E9C60093AD65 /* Events.storyboard in Resources */,
-				A6C5F34B1BF4E9C60093AD65 /* DrupalCon-Info.plist in Resources */,
 				A6C5F3211BF4E9C60093AD65 /* DCEventCell.xib in Resources */,
 				A6D12F0E1BF4F04F00B85FD1 /* DC-Theme.bundle in Resources */,
 				A6C5F3451BF4E9C60093AD65 /* about_img.png in Resources */,
@@ -1547,13 +1552,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -1565,7 +1576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -1584,13 +1595,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -1600,7 +1616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1611,8 +1627,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Lyubomyr Dutko (FN2T3UCV4E)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lyubomyr Dutko (FN2T3UCV4E)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carsten Dolar (6582VAX9KP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q7L82B2GJH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1621,17 +1638,17 @@
 					"$(PROJECT_DIR)/DrupalCon/Vendor/Crashlytics",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "DrupalCon/SupportingFiles/DrupalCon-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/DrupalCon/SupportingFiles/DrupalCon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_PREFIX_HEADER = "DrupalCon/SupportingFiles/ICCE2017-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DrupalCon/SupportingFiles/ICCE2017-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/DrupalCon/Vendor/GoogleAnalytics",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lemberg.drupalcon.qa;
+				PRODUCT_BUNDLE_IDENTIFIER = org.icce.ces.icce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f55145e2-0b5e-4175-92a7-ddd2376e97f9";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1642,8 +1659,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Lyubomyr Dutko (FN2T3UCV4E)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lyubomyr Dutko (FN2T3UCV4E)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carsten Dolar (6582VAX9KP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q7L82B2GJH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1652,17 +1670,17 @@
 					"$(PROJECT_DIR)/DrupalCon/Vendor/Crashlytics",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "DrupalCon/SupportingFiles/DrupalCon-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/DrupalCon/SupportingFiles/DrupalCon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_PREFIX_HEADER = "DrupalCon/SupportingFiles/ICCE2017-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DrupalCon/SupportingFiles/ICCE2017-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/DrupalCon/Vendor/GoogleAnalytics",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lemberg.drupalcon.qa;
+				PRODUCT_BUNDLE_IDENTIFIER = org.icce.ces.icce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f55145e2-0b5e-4175-92a7-ddd2376e97f9";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1671,7 +1689,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DC8C40C198656DA00BF5816 /* Build configuration list for PBXProject "DrupalCon" */ = {
+		5DC8C40C198656DA00BF5816 /* Build configuration list for PBXProject "ICCE2017" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DC8C441198656DB00BF5816 /* Debug */,
@@ -1680,7 +1698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DC8C443198656DB00BF5816 /* Build configuration list for PBXNativeTarget "DrupalCon" */ = {
+		5DC8C443198656DB00BF5816 /* Build configuration list for PBXNativeTarget "ICCE2017" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DC8C444198656DB00BF5816 /* Debug */,
