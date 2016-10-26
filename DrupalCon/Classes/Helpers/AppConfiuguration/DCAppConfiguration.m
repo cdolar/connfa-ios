@@ -80,6 +80,7 @@ static NSBundle* themeBundle;
       kMenuItemControllerId : @"DCProgramViewController",
       kMenuType : @(DCMENU_PROGRAM_ITEM)
     },
+    /*
     @{
       kMenuItemTitle : @"BoFs",
       kMenuItemIcon : @"menu_icon_bofs",
@@ -87,6 +88,7 @@ static NSBundle* themeBundle;
       kMenuItemControllerId : @"DCProgramViewController",
       kMenuType : @(DCMENU_BOFS_ITEM)
     },
+     */
     @{
       kMenuItemTitle : @"Social Events",
       kMenuItemIcon : @"menu_icon_social",
