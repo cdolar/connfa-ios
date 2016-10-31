@@ -6,7 +6,7 @@
 #import "GAI.h"
 #import "DCLevel+DC.h"
 #import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
+//#import <Crashlytics/Crashlytics.h>
 #import "NSUserDefaults+DC.h"
 
 @interface AppDelegate ()
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication*)application
     didFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
   // Initialise crashlytics
-  [Fabric with:@[ CrashlyticsKit ]];
+  //[Fabric with:@[ CrashlyticsKit ]];
 
   [self initializeGoogleAnalytics];
   [self handleUpdateData];

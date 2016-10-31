@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E9C6D201DC65F7900F0CD68 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9C6D1E1DC65F7900F0CD68 /* Fabric.framework */; };
+		1E9C6D211DC65F7900F0CD68 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9C6D1F1DC65F7900F0CD68 /* Crashlytics.framework */; };
 		5DC8C415198656DA00BF5816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC8C414198656DA00BF5816 /* Foundation.framework */; };
 		5DC8C417198656DA00BF5816 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC8C416198656DA00BF5816 /* CoreGraphics.framework */; };
 		5DC8C419198656DA00BF5816 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC8C418198656DA00BF5816 /* UIKit.framework */; };
@@ -128,8 +130,6 @@
 		A6C5F3471BF4E9C60093AD65 /* event_detail_style.css in Resources */ = {isa = PBXBuildFile; fileRef = A6C5F21D1BF4E9C60093AD65 /* event_detail_style.css */; };
 		A6C5F3491BF4E9C60093AD65 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A6C5F21E1BF4E9C60093AD65 /* style.css */; };
 		A6C5F34F1BF4E9C60093AD65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F2231BF4E9C60093AD65 /* main.m */; };
-		A6C5F3511BF4E9C60093AD65 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C5F2261BF4E9C60093AD65 /* Crashlytics.framework */; };
-		A6C5F3531BF4E9C60093AD65 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C5F2271BF4E9C60093AD65 /* Fabric.framework */; };
 		A6C5F3551BF4E9C60093AD65 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C5F2331BF4E9C60093AD65 /* libGoogleAnalyticsServices.a */; };
 		A6C5F3571BF4E9C60093AD65 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A6C5F2351BF4E9C60093AD65 /* LICENSE */; };
 		A6C5F3591BF4E9C60093AD65 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5F2371BF4E9C60093AD65 /* MKAnnotationView+WebCache.m */; };
@@ -152,6 +152,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E9C6D1E1DC65F7900F0CD68 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		1E9C6D1F1DC65F7900F0CD68 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		5DC8C411198656DA00BF5816 /* ICCE2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICCE2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC8C414198656DA00BF5816 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5DC8C416198656DA00BF5816 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -383,8 +385,6 @@
 		A6C5F2201BF4E9C60093AD65 /* ICCE2017-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ICCE2017-Info.plist"; sourceTree = "<group>"; };
 		A6C5F2211BF4E9C60093AD65 /* ICCE2017-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ICCE2017-Prefix.pch"; sourceTree = "<group>"; };
 		A6C5F2231BF4E9C60093AD65 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6C5F2261BF4E9C60093AD65 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		A6C5F2271BF4E9C60093AD65 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		A6C5F2291BF4E9C60093AD65 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
 		A6C5F22A1BF4E9C60093AD65 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
 		A6C5F22B1BF4E9C60093AD65 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
@@ -443,18 +443,27 @@
 				74E67C7719B6FEF500DF9D71 /* CoreLocation.framework in Frameworks */,
 				74A470E819B5EA3C00B01BC5 /* MapKit.framework in Frameworks */,
 				849EFDDB19A4ACB800C43E05 /* CoreData.framework in Frameworks */,
-				A6C5F3511BF4E9C60093AD65 /* Crashlytics.framework in Frameworks */,
 				5DC8C417198656DA00BF5816 /* CoreGraphics.framework in Frameworks */,
 				5DC8C419198656DA00BF5816 /* UIKit.framework in Frameworks */,
 				5DC8C415198656DA00BF5816 /* Foundation.framework in Frameworks */,
-				A6C5F3531BF4E9C60093AD65 /* Fabric.framework in Frameworks */,
 				A6C5F3551BF4E9C60093AD65 /* libGoogleAnalyticsServices.a in Frameworks */,
+				1E9C6D211DC65F7900F0CD68 /* Crashlytics.framework in Frameworks */,
+				1E9C6D201DC65F7900F0CD68 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E9C6D1D1DC65F6A00F0CD68 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C6D1E1DC65F7900F0CD68 /* Fabric.framework */,
+				1E9C6D1F1DC65F7900F0CD68 /* Crashlytics.framework */,
+			);
+			name = Crashlytics;
+			sourceTree = "<group>";
+		};
 		5DC8C408198656DA00BF5816 = {
 			isa = PBXGroup;
 			children = (
@@ -1240,22 +1249,13 @@
 		A6C5F2241BF4E9C60093AD65 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				1E9C6D1D1DC65F6A00F0CD68 /* Crashlytics */,
 				A678FD491C0366AF00F24105 /* Sidebar */,
 				A678FD451C03666600F24105 /* Reachability */,
-				A6C5F2251BF4E9C60093AD65 /* Crashlytics */,
 				A6C5F2281BF4E9C60093AD65 /* GoogleAnalytics */,
 				A6C5F2341BF4E9C60093AD65 /* SDWebImage */,
 			);
 			path = Vendor;
-			sourceTree = "<group>";
-		};
-		A6C5F2251BF4E9C60093AD65 /* Crashlytics */ = {
-			isa = PBXGroup;
-			children = (
-				A6C5F2261BF4E9C60093AD65 /* Crashlytics.framework */,
-				A6C5F2271BF4E9C60093AD65 /* Fabric.framework */,
-			);
-			path = Crashlytics;
 			sourceTree = "<group>";
 		};
 		A6C5F2281BF4E9C60093AD65 /* GoogleAnalytics */ = {
@@ -1405,7 +1405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./DrupalCon/Vendor/Crashlytics/Fabric.framework/run e92185b02a2fa31062b797232c3d5cccf9867952 86aa1940d27f46c329fc363de870071c4117aaea9b473564fef59b1783a54c8d";
+			shellScript = "./Fabric.framework/run 17edc8cec7c136fa549c067f8c1b03fa22856d7b 78682a0b63d98e3a815b5eb9499bd8ca9cd18e82284185c07671554bd885f5cb";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1636,6 +1636,7 @@
 					"$(PROJECT_DIR)/DrupalCon",
 					"$(PROJECT_DIR)/DrupalCon/CrashLytics",
 					"$(PROJECT_DIR)/DrupalCon/Vendor/Crashlytics",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "DrupalCon/SupportingFiles/ICCE2017-Prefix.pch";
@@ -1668,6 +1669,7 @@
 					"$(PROJECT_DIR)/DrupalCon",
 					"$(PROJECT_DIR)/DrupalCon/CrashLytics",
 					"$(PROJECT_DIR)/DrupalCon/Vendor/Crashlytics",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "DrupalCon/SupportingFiles/ICCE2017-Prefix.pch";

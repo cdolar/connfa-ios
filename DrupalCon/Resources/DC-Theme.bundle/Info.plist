@@ -7,16 +7,16 @@
 	<key>EventPlace</key>
 	<string>Las Vegas, ICCE 2017</string>
 	<key>NavigationBarColour</key>
-	<string>#007EC8</string>
+	<string>#66b2c1</string>
 	<key>EventDetailHeaderColour</key>
-	<string>#D2462A</string>
+	<string>#66b2c1</string>
 	<key>EventDetailNavBarTextColour</key>
 	<string>#ffffff</string>
 	<key>FavoriteEventColour</key>
-	<string>#D2462A</string>
+	<string>#437480</string>
 	<key>IsFilterEnable</key>
 	<true/>
 	<key>SpeakerDetailBarColour</key>
-	<string>#D2462A</string>
+	<string>#66b2c1</string>
 </dict>
 </plist>
